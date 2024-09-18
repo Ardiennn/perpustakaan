@@ -1,0 +1,157 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  font:18px/25px sans-serif;
+}
+
+.top-bar{
+  position:fixed;
+  top:0px;
+  left:0px;
+  right:0px;
+  height:40px;
+  z-index:999;
+}
+
+.top-bar marquee {
+  padding-top:10px;
+  font:bold;
+  font-size:20px;
+  font-family:BlinkMacSystemFont;
+  color:white;
+}
+
+.container{
+  width:100%;
+  margin-top:0px;
+  background-color:silver;
+}
+
+.header .gambar{
+  height:250px;
+  width:100%;
+  background-image:url(../assets/gambar.JPEG);
+  background-size:cover;
+}
+
+.header .gambar h1{
+  font-size:20px;
+  font-family:Times New Roman;
+  color:white;
+  text-align:center;
+  padding-top:90px;
+  padding-left:50px;
+}
+
+.header .nav{
+  background-color:silver;
+  border-bottom:2px solid steelblue;
+}
+
+.header .nav li{
+  display:inline-block;
+  margin-top:10px;
+  margin-left:15px;
+  margin-bottom:10px;
+  position:relative;
+}
+
+.header .nav li a{
+  text-decoration:none;
+  color:steelblue;
+  font-family:Times New Roman;
+  font-size:25px;
+  padding:10px;
+}
+
+.header .nav li a:hover{
+  background-color:gray;
+  color:snow;
+}
+
+.header .nav li:hover ul{
+  display:block;
+}
+
+.header .nav ul{
+  display:none;
+  list-style:none;
+  position:absolute;
+  top:15px;
+  left:40px;
+  width:120px;
+  margin:0px;
+  padding:0px;
+  background-color:white;
+  opacity:0.8;
+}
+
+.header .nav ul li a{
+  display:block;
+  float:none;
+  padding:0px;
+}
+
+.header .nav ul li a:hover{
+  color:white;
+  margin:0px;
+}
+
+.menu{
+  padding:10px;
+  width:650px;
+  float:left;
+}
+
+.menu h3{
+  font-weight:bold;
+  color:black;
+  text-align:center;
+  margin-top:5px;
+}
+
+.menu img{
+  width:200px;
+  height:200px;
+  float:left;
+  padding-right:12px;
+  margin-top:20px;
+}
+
+.menu p{
+  font:15px/15px sans-serif;
+  text-align:center;
+  text-indent:10px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.sidebar{
+  width:500px;
+  float:center;
+  padding:10px;
+  margin-top:10px;
+}
+
+.sidebar h3{
+  font-weight:bold;
+  padding:10px;
+}
+
+.clear{
+  clear:both;
+}
+
+.footer{
+  background-color:slategray;
+  padding:10px;
+}
+
+.footer .copy{
+  color:black;
+  text-align:center;
+  font-size:10px;
+}

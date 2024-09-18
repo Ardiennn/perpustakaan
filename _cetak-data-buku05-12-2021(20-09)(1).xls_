@@ -1,0 +1,42 @@
+<table border="1px">
+	<tr>
+		<th>No</th>
+		<th>Isbn</th>
+        <th>Judul Buku</th>
+        <th>Pengarang</th>
+        <th>Penerbit</th>
+        <th>Tahun Terbit</th>
+        <th>Jumlah</th>
+        <th>Lokasi</th>
+	</tr>
+			<tr>
+			<td>1</td>
+			<td>333</td>
+            <td>Pergi</td>
+            <td>Tere Liye</td>
+            <td>Republika Penerbit</td>
+            <td>Pilih Tahun</td>
+            <td>10</td>
+            <td>rak1</td>
+		</tr>
+			<tr>
+			<td>2</td>
+			<td>052</td>
+            <td>Mencari Ilmu</td>
+            <td>Admin</td>
+            <td>media perpustakaan</td>
+            <td>2017</td>
+            <td>10</td>
+            <td>rak3</td>
+		</tr>
+			<tr>
+			<td>3</td>
+			<td>88</td>
+            <td>dd</td>
+            <td>ss</td>
+            <td>iiii</td>
+            <td>2019</td>
+            <td>15</td>
+            <td>rak3</td>
+		</tr>
+	</table>

@@ -1,0 +1,15 @@
+.container {
+	width:40%;
+	margin-bottom:5%;
+	margin-top:5%;
+	box-shadow:0 3px 20px rgba(0,0,0,0.5);
+	padding:40px;
+	background-color:#DEB887;
+}
+button {
+	width:49%;
+}
+body{
+	background-image:url(assets/gambar.JPEG);
+	background-size:cover;
+}
